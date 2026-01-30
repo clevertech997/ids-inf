@@ -31,31 +31,33 @@ This tool is created by shell script and python
 # TERMUX 
 
 
-` apt install pv -y `
-
-` apt install figlet -y `
-
-` termux-setup-storage -y `
-
-` apt install ruby -y `
-
-` gem install lolcat `
-
+    apt install pv -y 
+-------------------------------
+    apt install figlet -y 
+---------------------------------
+    termux-setup-storage -y 
+------------------------------
+    apt install ruby -y 
+----------------------------
+    gem install lolcat 
+-------------------------
 #
-`git clone https://github.com/DRACULA-HACK/ids-inf `
+    git clone https://github.com/DRACULA-HACK/ids-inf 
+-----------------------------------------------------
+*     cd ids-inf 
+--------------------------------
+    python3 -m pip install -r requirements.txt 
+#---------------------------------------------------
+*     bash start-ids.sh 
+-------------------------
 #
-* `cd ids-inf `
+after extracting the files you can
+-----------------------------------
+      run ids.sh
+---------------------
 #
-` python3 -m pip install -r requirements.txt `
-#
-* ` bash start-ids.sh `
-
-#
-after extracting the files you can run `ids.sh` 
-
-#
-` bash ids.sh `
-
+ bash ids.sh 
+-------------------
 # INVADERS OFC 
 #
 
